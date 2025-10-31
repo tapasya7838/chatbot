@@ -24,5 +24,5 @@ GROQ_API_KEY=groq_api_key
 
 # 2. Run the chatbot
 
-streamlit run chatbot.py
+streamlit run app.py
 
