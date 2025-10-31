@@ -5,9 +5,9 @@ This is a Retrieval-Augmented Generation (RAG) chatbot built with Streamlit that
 ##  Features
 
 - Loads FAQs from a CSV file
-- Uses TF-IDF + cosine similarity to retrieve        relevant answers
+- Uses TF-IDF + cosine similarity to retrieve relevant answers
 - Sends context + query to Groq API for accurate responses
-- Simple Streamlit UI in one Python file
+- Simple Streamlit UI in app.py Python file
 
 ##  Requirements
 
@@ -18,9 +18,9 @@ This is a Retrieval-Augmented Generation (RAG) chatbot built with Streamlit that
 - sentence_transformers
 - sklearn
 
-# 1. Create .env file In the same folder as your chatbot script
+# 1. Create .env file in the chatbot folder
 
-GROQ_API_KEY=your_actual_groq_api_key
+GROQ_API_KEY=groq_api_key
 
 # 2. Run the chatbot
 
